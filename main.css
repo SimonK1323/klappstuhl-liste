@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'rony-siswadi'; /*a name to be used later*/
+    src: url('./rony-siswadi-15-font/Ronysiswadi15-51Dv8.ttf'); /*URL to font*/
+}
+
+body {
+    font-family: rony-siswadi, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #f8f8f8;
+    background: linear-gradient(to right, #ffebed, #f4faff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    margin: 50px 0 15px 0;
+}
+
+h4{
+    margin: 10px 0;
+}
+
+#unlinked-list {
+    padding: 0;
+    list-style-type: none;
+    overflow-y: scroll;
+}
+
+li {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 5px 10px 0 0;
+    border-radius: 5px;
+}
+
+li:hover {
+    background: lightgray;
+    cursor: pointer;
+}
+
+.content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    line-height: 170%;
+    max-width: 1500px;
+    margin: auto;
+    max-height: 100vh;
+    padding: 0 5%;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+.footer-links span{
+    background: lightblue;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
